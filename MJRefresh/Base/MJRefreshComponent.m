@@ -39,9 +39,9 @@
 
 - (void)layoutSubviews
 {
+    [self placeSubviews];
     [super layoutSubviews];
     
-    [self placeSubviews];
 }
 
 - (void)placeSubviews{}
